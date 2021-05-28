@@ -150,23 +150,6 @@ nav a:hover {
 
 
 
-
-@media screen and (max-width: 480px) { 
-    .box, .principal, .conteudo-sobremim, .conteudo-curriculo, .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
-}
-
-
-
 /*CODING*/
 .projects {
     padding: 3em 0;
@@ -452,4 +435,19 @@ footer {
 .icons {
     width: 60px;
     height: 60px;
+}
+
+
+@media screen and (max-width: 480px) { 
+    header, footer, .sobremim, .curriculo, .projects, .games, .videos, .fotos{
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
 }
