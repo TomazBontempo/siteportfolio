@@ -418,6 +418,12 @@ footer {
     padding: 40px 0;
 }
 
+.e-mailadress {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+
 .cpr {
     color: #ffffff;
     font-size: 13px;
