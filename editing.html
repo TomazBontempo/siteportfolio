@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Tomaz Bontempo</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="box">
+                <h1>
+                    <a href="https://github.com/Snufupugos"><img src="tomlogo1.png" class="logo"></a>
+                    <img src="siteport.png" class="logo2">
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="coding.html">Programação</a></li>
+                        <li><a href="editing.html">Edição</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="videos">
+                <div class="description">
+                    <p>
+                        O espaço abaixo é dedicado para a exibição de alguns dos meus projetos em edição. 
+                    </p>
+                    <p>
+                        Costumo realizar essas edições principalmente pelos softwares da Adobe, Photoshop e Premiere.  
+                    </p>
+                    <p>
+                        Também realizei toda a criação de logos, vinhetas, layout, toda identidade visual das redes e canais da streamer 
+                        <a href="https://www.twitch.tv/laulis" class="laulislive">Laulis</a>.
+                    </p>
+                </div>
+                
+                <div class="youtubevideos">
+                    <h2 class="titulos">Vídeos:</h2>
+                    <ul class="canais">
+                        <li>
+                            <h3 class="channels-titles">Laulis:</h3>
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/mIIMHKXuFjk" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen class="youtube"></iframe>
+    
+                        </li>
+                        <li>
+                            <h3 class="channels-titles">Snufupugos:</h3>
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/kr0rEAacEBQ" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen class="youtube"></iframe>
+    
+                        </li>
+                        <li>
+                            <h3 class="channels-titles">Espaço dialógico:</h3>
+                            <iframe width="640" height="360" src="https://www.youtube.com/embed/Ag-lGJAUw4Y" 
+                            title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen class="youtube"></iframe>
+    
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            <section class="fotos">
+                
+
+
+                <h2 class="titulos">Imagens:</h2>
+                <ul class="imagens">
+                    <li>
+                        <img src="nogueira.png" alt="Nogueira" onclick="myFunction(this);" class="nogueira">
+                    </li>
+                    <li>
+                        <img src="kadoriquer.png" alt="kadoriquer" onclick="myFunction(this);" class="kadoriquer">
+                    </li>
+                    <li>
+                        <img src="pernil.png" alt="Pernil e Cia" onclick="myFunction(this);" class="pernil">
+                    </li>
+                    <li>
+                        <img src="pets.png" alt="PetShop" onclick="myFunction(this);" class="pets">
+                    </li>
+                    <li>
+                        <img src="cienciadd.png" alt="Ciência das Drogas" onclick="myFunction(this);" class="cienciadd">
+                    </li>
+                </ul>
+                <div class="container">
+                    <!-- Close the image -->
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                  
+                    <!-- Expanded image -->
+                    <img id="expandedImg" style="width:70%" class="expandedImg">
+                </div>
+
+                <script>
+                    function myFunction(imgs) {
+                    // Get the expanded image
+                    var expandImg = document.getElementById("expandedImg");
+                    // Use the same src in the expanded image as the image being clicked on from the grid
+                    expandImg.src = imgs.src;
+                    // Show the container element (hidden with CSS)
+                    expandImg.parentElement.style.display = "block";
+                    expandImg.parentElement.style.textAlign = "center";
+                    }
+                </script>
+
+            </section>
+        </main>
+
+        <footer>
+            <img src="tomlogo1.png">
+            <ul class="contatos">
+                <li><a href="mailto:tomaz.bontempo@gmail.com"><img src="gmailicon.png" class="icons"></a></li>
+                <li><a href="https://wa.me/5521981746781"><img src="wppicon.png" class="icons"></a></li>
+                <li><a href="https://discordapp.com/users/277218783066849290/"><img src="discordicon.png" class="icons"></a></li>
+                <li><a href="https://github.com/Snufupugos"><img src="githubicon.png" class="icons"></a></li>
+
+            </ul>
+            <p class="cpr">&copy; Copyright Tomaz Bontempo - 2021</p>
+        </footer>
+    </body>
+</html>

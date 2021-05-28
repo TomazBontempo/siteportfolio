@@ -1,0 +1,449 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*HEADER*/
+header {
+    background: #000000;
+    padding: 20px 0;
+}
+
+.box {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    cursor: pointer;
+    background: url("tomlogo1.png") no-repeat;
+    transition: 1s all;
+}
+
+.logo:hover {
+    background: url("tomlogo2.png") no-repeat;
+    transition: 1s all;
+}
+
+.logo2 {
+     position: absolute;
+    left: 45px;
+     top: 120px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #00a2ff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #801edb;
+    text-decoration: underline;
+}
+
+
+
+/*HOME*/
+.sobremim {
+    text-align: center;
+    padding: 3em 0;
+    background: linear-gradient( #000000, #801edb);
+}
+
+.tomaz {
+    margin-bottom: 1em;
+    width: 13%;
+    opacity: 1;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.tomaz:hover {
+    transform: scale(1.2);
+}
+
+.titulos {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+    color: white;
+}
+
+.textos{
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid #00a2ff;
+    border-radius: 50px;
+    border-width: thick;
+    padding: 30px 20px;
+    transition: 0.5s all;
+
+}
+
+.textos:hover{
+    transform: scale(1.1);
+}
+
+.textos p {
+    margin: 0 0 1em;
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+}
+
+.curriculo{
+    padding: 3em 0;
+    background: linear-gradient(#801edb, #00a2ff);
+}
+
+.conteudo-curriculo {
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid #801edb;
+    border-radius: 50px;
+    border-width: thick;
+    padding: 30px 20px;
+    transition: 0.5s all;
+}
+
+.conteudo-curriculo:hover {
+    transform: scale(1.1);
+}
+
+.resumo {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.itens{
+    line-height:1.5;
+    color: white;
+}
+
+.itens::before{
+    content: "▸ ";
+}
+
+
+
+
+@media screen and (max-width: 480px) { 
+    .box, .principal, .conteudo-sobremim, .conteudo-curriculo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
+
+
+/*CODING*/
+.projects {
+    padding: 3em 0;
+    background: linear-gradient( #000000, #801edb);
+}
+
+.games{
+    padding: 3em 0;
+    background: linear-gradient(#801edb, #00a2ff);
+}
+
+.gametitle{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+    clear: left;
+    color: white;
+}
+
+
+.banners{
+    display: block;
+    text-align: center;
+}
+
+.banners li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.5s all;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.banners li:hover {
+    transform: scale(1.1)
+}
+
+.freeway{
+    background-color:black;
+    width: 500px;
+    height: 400px;
+    margin: 2em auto;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+    padding: 5px 5px;
+}
+
+.pong{
+    background-color:black;
+    width: 500px;
+    height: 400px;
+    margin: 2em auto;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+    padding: 5px 5px;
+}
+
+
+
+/*EDITING*/
+.laulislive {
+    color:white;
+}
+
+.laulislive:hover {
+    color: #00a2ff;
+    text-decoration: underline;
+}
+
+.description{
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid #00a2ff;
+    border-radius: 50px;
+    border-width: thick;
+    padding: 20px 20px;
+    transition: 0.5s all;
+}
+
+.description p{
+    margin: 0 0 1em;
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+}
+
+
+.description:hover{
+    transform: scale(1.1);
+}
+
+.youtubevideos {
+    margin-top: 150px;
+}
+
+.videos {
+    text-align: center;
+    padding: 3em 0;
+    background: linear-gradient( #000000, #801edb);
+}
+
+.channels-titles{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    clear: left;
+    color: white;
+}
+
+.canais{
+    display: block;
+    text-align: center;
+}
+
+.canais li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+
+.youtube{
+    border: 2px solid #00a2ff;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+.fotos {
+    padding: 3em 0;
+    background: linear-gradient(#801edb, #00a2ff);
+}
+
+.imagens{
+    display: block;
+    text-align: center;
+}
+
+.imagens li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.5s all;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.imagens li:hover {
+    transform: scale(1.1)
+}
+
+.nogueira{
+
+    width: 240px;
+    height: 135px;
+    
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.kadoriquer{
+
+    width: 240px;
+    height: 135px;
+    
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.pernil{
+
+    width: 240px;
+    height: 135px;
+    
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.pets{
+    width: 240px;
+    height: 135px;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.cienciadd{
+    width: 240px;
+    height: 135px;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.expandedImg{
+    text-align: center;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+
+.container {
+    position: relative;
+    display: none;
+}
+
+.expandedImg{
+    text-align: center;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+}
+  
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 300px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    background: #00a2ff;
+    padding: 40px 0;
+}
+
+.cpr {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.contatos{
+    display: block;
+    text-align: center;
+}
+
+.contatos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.5s all;
+    margin: 0 0.5%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.contatos li:hover {
+    transform: scale(1.2)
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+}
