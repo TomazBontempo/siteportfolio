@@ -464,6 +464,45 @@ footer {
     }
 
     .tomaz {
+        width: 30%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    header {
+        width: 100%;
+        background: #000000;
+    }
+
+    .sobremim, .projects, .videos{
+        width: 100%;
+        background: linear-gradient(#000000, #801edb);
+    }
+
+    .curriculo, .games, .fotos{
+        width: 100%;
+        background: linear-gradient(#801edb, #00a2ff);
+    }
+
+    footer {
+        width: 100%;
+        background: #00a2ff;
+    }
+
+    .box, .textos, .conteudo-curriculo {
+        width: 70%;
+    }
+
+    .tomaz {
         width: 50%;
     }
 
@@ -474,4 +513,5 @@ footer {
     nav {
         position: static;
     }
+
 }
