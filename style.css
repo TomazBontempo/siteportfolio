@@ -439,7 +439,7 @@ footer {
 
 
 @media screen and (max-width: 1300px) { 
-    header, .box {
+    header {
         width: 100%;
         background: #000000;
     }
@@ -459,7 +459,7 @@ footer {
         background: #00a2ff;
     }
 
-    .conteudo-curriculo, .textos{
+    .box, .tomaz, .textos, .conteudo-curriculo {
         width: 70%;
     }
 
