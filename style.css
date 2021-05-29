@@ -469,7 +469,7 @@ footer {
     }
 
     .tomaz:hover {
-        transform: none;
+        transform: 1.01;
     }
 
     h1 {
