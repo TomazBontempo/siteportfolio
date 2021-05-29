@@ -462,13 +462,13 @@ footer {
 
     .box, .textos, .conteudo-curriculo {
         width: 70%;
-        transition: none;
-        transform: none;
     }
 
     .tomaz {
         width: 20%;
-        transition: none;
+    }
+
+    .tomaz:hover {
         transform: none;
     }
 
@@ -479,7 +479,7 @@ footer {
     nav {
         position: absolute;
         top: 300px;
-        left: 50%;
+        text-align: center;
     }
 }
 
