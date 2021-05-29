@@ -438,6 +438,8 @@ footer {
 }
 
 
+
+/*BREAK POINTS*/
 @media screen and (max-width: 1300px) { 
     header {
         width: 100%;
@@ -473,8 +475,6 @@ footer {
         margin-top: 30px;
     }
 
-  
-
     h1 {
         text-align: center;
     }
@@ -483,11 +483,71 @@ footer {
         top: 5px;
         right: 210px;
     }
+}
 
 
+@media screen and (max-width: 1000px) { 
+    header {
+        width: 100%;
+        height: fit-content;
+        background: #000000;
+    }
 
+    .sobremim, .projects, .videos{
+        width: 100%;
+        background: linear-gradient(#000000, #801edb);
+    }
 
+    .curriculo, .games, .fotos{
+        width: 100%;
+        background: linear-gradient(#801edb, #00a2ff);
+    }
 
+    footer {
+        width: 100%;
+        background: #00a2ff;
+    }
+
+    .box, .textos, .conteudo-curriculo {
+        width: 70%;
+    }
+
+    .box{
+        height: 170px;
+    }
+
+    .logo, .logo2, nav{
+        position: relative;
+        display: block;
+    }
+
+    .logo, .logo2{
+        margin-left: 30%;
+    }
+
+    .logo2{
+        position:absolute;
+        top: 120px;
+    }
+
+    nav{
+        text-align: center;
+        top: 50px;
+    }
+
+    .tomaz {
+        width: 20%;
+        margin-top: 30px;
+    }
+
+    .titulos, .description{
+        margin-top: 30px;
+    }
+
+    .closebtn{
+        top: 5px;
+        right: 170px;
+    }
 }
 
 
