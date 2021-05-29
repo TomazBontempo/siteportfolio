@@ -554,6 +554,7 @@ footer {
 @media screen and (max-width: 430px) {
     header {
         width: 100%;
+        height: fit-content;
         background: #000000;
     }
 
@@ -572,11 +573,35 @@ footer {
         background: #00a2ff;
     }
 
-    .box, .textos, .conteudo-curriculo {
+    .box, .textos, .conteudo-curriculo, .description, .freeway, .pong, .youtube{
         width: 70%;
     }
 
+    .box{
+        height: 170px;
+    }
+
+    .logo, .logo2, nav{
+        position: relative;
+        display: block;
+    }
+
+    .logo, .logo2{
+        margin-left: 5%;
+    }
+
+    .logo2{
+        position:absolute;
+        top: 120px;
+    }
+
+    nav{
+        text-align: center;
+        top: 50px;
+    }
+
     .tomaz {
+        margin-top: 90px;
         width: 50%;
     }
 
@@ -584,13 +609,12 @@ footer {
         transform: none;
     }
 
-    h1 {
-        text-align: center;
+    .titulos, .description{
+        margin-top: 90px;
     }
 
-
-
-    nav {
-        position: static;
+    .closebtn{
+        top: 5px;
+        right: 70px;
     }
 }
