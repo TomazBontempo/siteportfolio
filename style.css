@@ -439,9 +439,6 @@ footer {
 
 
 @media screen and (max-width: 1300px) { 
-    * {
-        transition: none;
-    }
     header {
         width: 100%;
         height: fit-content;
@@ -465,10 +462,12 @@ footer {
 
     .box, .textos, .conteudo-curriculo {
         width: 70%;
+        transition: none;
     }
 
     .tomaz {
         width: 20%;
+        transition: none;
     }
 
     h1 {
