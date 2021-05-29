@@ -439,6 +439,9 @@ footer {
 
 
 @media screen and (max-width: 1300px) { 
+    * {
+        transition: none;
+    }
     header {
         width: 100%;
         height: fit-content;
@@ -475,7 +478,7 @@ footer {
     nav {
         position: absolute;
         top: 300px;
-        left: 300px;
+        left: 50%;
     }
 }
 
