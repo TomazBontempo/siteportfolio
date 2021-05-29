@@ -459,8 +459,12 @@ footer {
         background: #00a2ff;
     }
 
-    .box, .tomaz, .textos, .conteudo-curriculo {
+    .box, .textos, .conteudo-curriculo {
         width: 70%;
+    }
+
+    .tomaz {
+        width: 25;
     }
 
     h1 {
