@@ -464,23 +464,30 @@ footer {
         width: 70%;
     }
 
-    .tomaz {
-        width: 20%;
+    .logo, .logo2, nav{
+        display: block;
     }
 
-    .tomaz:hover {
-        transform: 1.01;
+    .tomaz {
+        width: 20%;
+        margin-top: 30px;
     }
+
+  
 
     h1 {
         text-align: center;
     }
 
-    nav {
-        position: absolute;
-        top: 300px;
-        text-align: center;
+    .closebtn{
+        top: 5px;
+        right: 210px;
     }
+
+
+
+
+
 }
 
 
@@ -513,9 +520,15 @@ footer {
         width: 50%;
     }
 
+    .tomaz:hover {
+        transform: none;
+    }
+
     h1 {
         text-align: center;
     }
+
+
 
     nav {
         position: static;
