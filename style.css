@@ -459,6 +459,10 @@ footer {
         background: #00a2ff;
     }
 
+    .conteudo-curriculo, .textos{
+        width: 100%;
+    }
+
     h1 {
         text-align: center;
     }
@@ -466,5 +470,4 @@ footer {
     nav {
         position: static;
     }
-
 }
