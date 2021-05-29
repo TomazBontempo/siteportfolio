@@ -463,11 +463,13 @@ footer {
     .box, .textos, .conteudo-curriculo {
         width: 70%;
         transition: none;
+        transform: none;
     }
 
     .tomaz {
         width: 20%;
         transition: none;
+        transform: none;
     }
 
     h1 {
@@ -518,5 +520,4 @@ footer {
     nav {
         position: static;
     }
-
 }
