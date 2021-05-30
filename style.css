@@ -617,4 +617,8 @@ footer {
         top: 5px;
         right: 70px;
     }
+
+    .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
+    }
 }
