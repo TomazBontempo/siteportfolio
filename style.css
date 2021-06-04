@@ -465,17 +465,9 @@ footer {
         width: 70%;
     }
 
-    .logo, .logo2, nav{
-        display: block;
-    }
-
     .tomaz {
         width: 20%;
         margin-top: 30px;
-    }
-
-    h1 {
-        text-align: center;
     }
 
     .closebtn{
@@ -515,18 +507,8 @@ footer {
         height: 170px;
     }
 
-    .logo, .logo2, nav{
+    .logo, nav{
         position: relative;
-        display: block;
-    }
-
-    .logo, .logo2{
-        margin-left: 30%;
-    }
-
-    .logo2{
-        position:absolute;
-        top: 120px;
     }
 
     nav{
@@ -577,21 +559,13 @@ footer {
     }
 
     .box{
+        text-align: center;
         height: 170px;
     }
 
-    .logo, .logo2, nav{
+    .logo, nav {
+        text-align: center;
         position: relative;
-        display: block;
-    }
-
-    .logo, .logo2{
-        margin-left: 5%;
-    }
-
-    .logo2{
-        position:absolute;
-        top: 120px;
     }
 
     nav{
