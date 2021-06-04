@@ -564,12 +564,12 @@ footer {
     }
 
     .logo, nav {
-        text-align: center;
         position: relative;
+        margin-left: auto;
+        margin-top: auto;
     }
 
     nav{
-        text-align: center;
         top: 50px;
         width: 100px;
     }
