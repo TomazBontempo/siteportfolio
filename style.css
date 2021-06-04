@@ -440,7 +440,7 @@ footer {
 
 /*BREAK POINTS*/
 @media screen and (max-width: 1200px) /*BP1 - Tablet Paisagem*/ { 
-    .textos, .conteudo-curriculo {
+    .textos, .conteudo-curriculo, .description {
         width: 70%;
     }
 
@@ -460,7 +460,7 @@ footer {
 
 @media screen and (max-width: 900px) /*BP2 - Tablet Retrato*/ { 
     
-    .textos, .conteudo-curriculo {
+    .textos, .conteudo-curriculo, .description {
         width: 70%;
     }
 
@@ -478,14 +478,14 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) /*BP3 - Phone*/ { 
+@media screen and (max-width: 640px) /*BP3 - Phone*/ { 
 
     .logo, nav{
         margin-left: auto;
         margin-right: auto;
     }
     
-    .textos, .conteudo-curriculo {
+    .textos, .conteudo-curriculo, .description {
         width: 70%;
     }
 
@@ -495,6 +495,12 @@ footer {
 
     .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
         transform: none;
+    }
+
+    .freeway, .pong, .youtube {
+        display: block;
+        width: 550px;
+        height: 400px; 
     }
 
     .closebtn{
