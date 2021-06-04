@@ -490,7 +490,7 @@ footer {
     }
 
     .tomaz {
-        width: 20%;
+        width: 30%;
     }
 
     .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
@@ -541,7 +541,7 @@ footer {
     }
 
     .tomaz {
-        width: 20%;
+        width: 50%;
     }
 
     .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
