@@ -478,7 +478,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 640px) /*BP3 - Phone*/ { 
+@media screen and (max-width: 650px) /*BP3 - Phone*/ { 
 
     .logo, nav{
         margin-left: auto;
@@ -499,7 +499,40 @@ footer {
 
     .freeway, .pong, .youtube {
         display: block;
-        width: 90px;
+        width: 550px;
+        height: 400px; 
+    }
+
+    .closebtn{
+        top: 5px;
+        right: 210px;
+    }
+}
+
+@media screen and (max-width: 600px) /*BP4 - Small Phone*/ { 
+
+    .logo, nav{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .textos, .conteudo-curriculo, .description {
+        width: 70%;
+    }
+
+    .tomaz {
+        width: 20%;
+    }
+
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
+    }
+
+    .freeway, .pong, .youtube {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
         height: 400px; 
     }
 
