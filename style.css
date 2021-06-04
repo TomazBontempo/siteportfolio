@@ -11,33 +11,32 @@ header {
 }
 
 .box {
-    position: relative;
-    width: 1280px;
-    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
+
+
 .logo {
+    display: block;
+    margin-right: auto;
     cursor: pointer;
-    background: url("tomlogo1.png") no-repeat;
+    background: url("hlogo1.png") no-repeat;
     transition: 1s all;
 }
 
 .logo:hover {
-    background: url("tomlogo2.png") no-repeat;
+    background: url("hlogo2.png") no-repeat;
     transition: 1s all;
 }
 
-.logo2 {
-     position: absolute;
-    left: 45px;
-     top: 120px;
-}
-
 nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
-
+    height: 22px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
 }
 
 nav li {
