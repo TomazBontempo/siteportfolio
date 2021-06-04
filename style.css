@@ -96,6 +96,7 @@ nav a:hover {
     border-width: thick;
     padding: 30px 20px;
     transition: 0.5s all;
+    text-align: justify;
 
 }
 
