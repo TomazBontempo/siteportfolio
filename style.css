@@ -189,18 +189,7 @@ nav a:hover {
     transform: scale(1.1)
 }
 
-.freeway{
-    background-color:black;
-    width: 500px;
-    height: 400px;
-    margin: 2em auto;
-    border: 2px solid #801edb;
-    border-radius: 10px;
-    border-width: thick;
-    padding: 5px 5px;
-}
-
-.pong{
+.jogos {
     background-color:black;
     width: 500px;
     height: 400px;
@@ -271,12 +260,19 @@ nav a:hover {
 }
 
 .canais li {
-    display: inline-block;
+    display: block;
     text-align: center;
-    vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+}
+
+.youtube-box{
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -284,6 +280,11 @@ nav a:hover {
     border: 2px solid #00a2ff;
     border-radius: 10px;
     border-width: thick;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .fotos {
@@ -478,7 +479,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 650px) /*BP3 - Phone*/ { 
+@media screen and (max-width: 750px) /*BP3 - Phone*/ { 
 
     .logo, nav{
         margin-left: auto;
@@ -497,10 +498,16 @@ footer {
         transform: none;
     }
 
-    .freeway, .pong, .youtube {
-        display: block;
-        width: 550px;
-        height: 400px; 
+    .youtube-box{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+
+    .jogos {
+        width: 100%;
+        height: auto;
     }
 
     .closebtn{
@@ -509,35 +516,4 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) /*BP4 - Small Phone*/ { 
 
-    .logo, nav{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .textos, .conteudo-curriculo, .description {
-        width: 70%;
-    }
-
-    .tomaz {
-        width: 20%;
-    }
-
-    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
-        transform: none;
-    }
-
-    .freeway, .pong, .youtube {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 70%;
-        height: 400px; 
-    }
-
-    .closebtn{
-        top: 5px;
-        right: 210px;
-    }
-}
