@@ -571,6 +571,7 @@ footer {
     nav{
         text-align: center;
         top: 50px;
+        width: 100;
     }
 
     .tomaz {
