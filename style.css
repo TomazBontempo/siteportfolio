@@ -439,35 +439,17 @@ footer {
 
 
 /*BREAK POINTS*/
-@media screen and (max-width: 1300px) { 
-    header {
-        width: 100%;
-        height: fit-content;
-        background: #000000;
-    }
-
-    .sobremim, .projects, .videos{
-        width: 100%;
-        background: linear-gradient(#000000, #801edb);
-    }
-
-    .curriculo, .games, .fotos{
-        width: 100%;
-        background: linear-gradient(#801edb, #00a2ff);
-    }
-
-    footer {
-        width: 100%;
-        background: #00a2ff;
-    }
-
-    .box, .textos, .conteudo-curriculo {
+@media screen and (max-width: 1200px) /*BP1 - Tablet Paisagem*/ { 
+    .textos, .conteudo-curriculo {
         width: 70%;
     }
 
     .tomaz {
         width: 20%;
-        margin-top: 30px;
+    }
+
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
     }
 
     .closebtn{
@@ -476,123 +458,47 @@ footer {
     }
 }
 
-
-@media screen and (max-width: 1000px) { 
-    header {
-        width: 100%;
-        height: fit-content;
-        background: #000000;
-    }
-
-    .sobremim, .projects, .videos{
-        width: 100%;
-        background: linear-gradient(#000000, #801edb);
-    }
-
-    .curriculo, .games, .fotos{
-        width: 100%;
-        background: linear-gradient(#801edb, #00a2ff);
-    }
-
-    footer {
-        width: 100%;
-        background: #00a2ff;
-    }
-
-    .box, .textos, .conteudo-curriculo {
+@media screen and (max-width: 900px) /*BP2 - Tablet Retrato*/ { 
+    
+    .textos, .conteudo-curriculo {
         width: 70%;
-    }
-
-    .box{
-        height: 170px;
-    }
-
-    .logo, nav{
-        position: relative;
-    }
-
-    nav{
-        text-align: center;
-        top: 50px;
     }
 
     .tomaz {
         width: 20%;
-        margin-top: 30px;
     }
 
-    .titulos, .description{
-        margin-top: 30px;
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
     }
 
     .closebtn{
         top: 5px;
-        right: 170px;
+        right: 210px;
     }
 }
 
+@media screen and (max-width: 600px) /*BP3 - Phone*/ { 
 
-@media screen and (max-width: 430px) {
-    header {
-        width: 100%;
-        height: fit-content;
-        background: #000000;
+    .logo, nav{
+        margin-left: auto;
+        margin-right: auto;
     }
-
-    .sobremim, .projects, .videos{
-        width: 100%;
-        background: linear-gradient(#000000, #801edb);
-    }
-
-    .curriculo, .games, .fotos{
-        width: 100%;
-        background: linear-gradient(#801edb, #00a2ff);
-    }
-
-    footer {
-        width: 100%;
-        background: #00a2ff;
-    }
-
-    .box, .textos, .conteudo-curriculo, .description, .freeway, .pong, .youtube{
+    
+    .textos, .conteudo-curriculo {
         width: 70%;
     }
 
-    .box{
-        text-align: center;
-        height: 170px;
-    }
-
-    .logo, nav {
-        position: relative;
-        margin-left: auto;
-        margin-top: auto;
-    }
-
-    nav{
-        top: 50px;
-        width: 100px;
-    }
-
     .tomaz {
-        margin-top: 90px;
-        width: 50%;
+        width: 20%;
     }
 
-    .tomaz:hover {
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
         transform: none;
-    }
-
-    .titulos, .description{
-        margin-top: 90px;
     }
 
     .closebtn{
         top: 5px;
-        right: 70px;
-    }
-
-    .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
-        transform: none;
+        right: 210px;
     }
 }
