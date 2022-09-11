@@ -1,0 +1,570 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*HEADER*/
+header {
+    background: #000000;
+    padding: 20px 0;
+}
+
+.box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+
+.logo {
+    display: block;
+    margin-right: auto;
+    cursor: pointer;
+    background: url("../img/hlogo1.png") no-repeat;
+    transition: 1s all;
+}
+
+.logo:hover {
+    background: url("../img/hlogo2.png") no-repeat;
+    transition: 1s all;
+}
+
+nav {
+    height: 22px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #00a2ff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #801edb;
+    text-decoration: underline;
+}
+
+
+
+/*HOME*/
+.sobremim {
+    text-align: center;
+    padding: 3em 0;
+    background: linear-gradient( #000000, #801edb);
+}
+
+.tomaz {
+    margin-bottom: 1em;
+    width: 13%;
+    opacity: 1;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.tomaz:hover {
+    transform: scale(1.2);
+}
+
+.titulos {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+    color: white;
+}
+
+.textos{
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid #00a2ff;
+    border-radius: 50px;
+    border-width: thick;
+    padding: 30px 20px;
+    transition: 0.5s all;
+    text-align: justify;
+
+}
+
+.textos:hover{
+    transform: scale(1.1);
+}
+
+.textos p {
+    margin: 0 0 1em;
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+}
+
+.curriculo{
+    padding: 3em 0;
+    background: linear-gradient(#801edb, #00a2ff);
+}
+
+.conteudo-curriculo {
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid #801edb;
+    border-radius: 50px;
+    border-width: thick;
+    padding: 30px 20px;
+    transition: 0.5s all;
+}
+
+.conteudo-curriculo:hover {
+    transform: scale(1.1);
+}
+
+.resumo {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.itens{
+    line-height:1.5;
+    color: white;
+}
+
+.itens::before{
+    content: "▸ ";
+}
+
+
+
+/*CODING*/
+.projects {
+    padding: 3em 0;
+    background: linear-gradient( #000000, #801edb);
+}
+
+.games{
+    padding: 3em 0;
+    background: linear-gradient(#801edb, #00a2ff);
+}
+
+.gametitle{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+    clear: left;
+    color: white;
+}
+
+
+.banners{
+    display: block;
+    text-align: center;
+}
+
+.banners li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.5s all;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.banners li:hover {
+    transform: scale(1.1)
+}
+
+.jogos {
+    background-color:black;
+    width: 500px;
+    height: 400px;
+    margin: 2em auto;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+    padding: 5px 5px;
+}
+
+
+
+/*EDITING*/
+.laulislive, .snufulive {
+    color:white;
+}
+
+.laulislive:hover, .snufulive:hover {
+    color: #00a2ff;
+    text-decoration: underline;
+}
+
+.description{
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: 0 auto;
+    border: 2px solid #00a2ff;
+    border-radius: 50px;
+    border-width: thick;
+    padding: 20px 20px;
+    transition: 0.5s all;
+}
+
+.description p{
+    margin: 0 0 1em;
+    line-height: 1.5;
+    text-align: left;
+    color: white;
+}
+
+
+.description:hover{
+    transform: scale(1.1);
+}
+
+.youtubevideos {
+    margin-top: 150px;
+}
+
+.videos {
+    text-align: center;
+    padding: 3em 0;
+    background: linear-gradient( #000000, #801edb);
+}
+
+.channels-titles{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    clear: left;
+    color: white;
+}
+
+.canais{
+    display: block;
+    text-align: center;
+}
+
+.canais li {
+    display: block;
+    text-align: center;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.youtube-box{
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.youtube{
+    border: 2px solid #00a2ff;
+    border-radius: 10px;
+    border-width: thick;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.fotos {
+    padding: 3em 0;
+    background: linear-gradient(#801edb, #00a2ff);
+}
+
+.imagens{
+    display: block;
+    text-align: center;
+}
+
+.imagens li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.5s all;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.imagens li:hover {
+    transform: scale(1.1)
+}
+
+.nogueira{
+
+    width: 240px;
+    height: 135px;
+    
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.kadoriquer{
+
+    width: 240px;
+    height: 135px;
+    
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.pernil{
+
+    width: 240px;
+    height: 135px;
+    
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.pets{
+    width: 240px;
+    height: 135px;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.cienciadd{
+    width: 240px;
+    height: 135px;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+
+}
+
+.expandedImg{
+    text-align: center;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+.container {
+    position: relative;
+    display: none;
+}
+
+.expandedImg{
+    text-align: center;
+    border: 2px solid #801edb;
+    border-radius: 10px;
+    border-width: thick;
+}
+  
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 300px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    background: #00a2ff;
+    padding: 40px 0;
+}
+
+.e-mailadress {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 20px 0 0;
+}
+
+.cpr {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.contatos{
+    display: block;
+    text-align: center;
+}
+
+.contatos li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.5s all;
+    margin: 0 0.5%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.contatos li:hover {
+    transform: scale(1.2)
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+/*BREAK POINTS*/
+@media screen and (max-width: 1200px) /*BP1 - Tablet Paisagem*/ { 
+    .textos, .conteudo-curriculo, .description {
+        width: 70%;
+    }
+
+    .tomaz {
+        width: 20%;
+    }
+
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
+    }
+
+    .closebtn{
+        top: 5px;
+        right: 210px;
+    }
+}
+
+@media screen and (max-width: 900px) /*BP2 - Tablet Retrato*/ { 
+    
+    .textos, .conteudo-curriculo, .description {
+        width: 70%;
+    }
+
+    .tomaz {
+        width: 20%;
+    }
+
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
+    }
+
+    .closebtn{
+        top: 5px;
+        right: 150px;
+    }
+}
+
+@media screen and (max-width: 750px) /*BP3 - Phone*/ { 
+
+    .logo, nav{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .textos, .conteudo-curriculo, .description {
+        width: 70%;
+    }
+
+    .tomaz {
+        width: 30%;
+    }
+
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
+    }
+
+    .youtube-box{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+
+    .jogos {
+        width: 100%;
+        height: auto;
+    }
+
+    .closebtn{
+        top: 5px;
+        right: 120px;
+    }
+}
+
+
+@media screen and (max-width: 450px) /*BP4 - Small Phone*/ { 
+
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav {
+        width: 200px;
+        height: auto;
+    }
+
+    .navegação{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+
+    }
+    
+    .textos, .conteudo-curriculo, .description {
+        width: 70%;
+    }
+
+    .tomaz {
+        width: 50%;
+    }
+
+    .tomaz:hover, .description:hover, .banners li:hover, .conteudo-curriculo:hover, .textos:hover {
+        transform: none;
+    }
+
+    .youtube-box{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+
+    .jogos {
+        width: 100%;
+        height: auto;
+    }
+
+    .closebtn{
+        top: 5px;
+        right: 70px;
+    }
+}
+
+
